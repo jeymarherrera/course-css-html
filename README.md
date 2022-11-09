@@ -1,4 +1,4 @@
-# practices-css-html
+# Práctica Realizadas en HTML, CSS, SASS, STYLUS Y LESS
 Prácticas clonando las siguientes páginas conocidas: <br> 
  - :one: [Duolingo](https://es.duolingo.com/)
  - :one: [IGN](https://latam.ign.com/)
