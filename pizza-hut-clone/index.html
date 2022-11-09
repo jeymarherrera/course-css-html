@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;1,600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Positions and Floating</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo"
+        ><img src="./img/logo.svg" alt="Pizza Hut logo"
+      /></a>
+      <div class="enlaces">
+        <ul>
+          <li class="nav__enlace">
+            <button><a href="#paquetes">Paquetes</a></button>
+          </li>
+          <li class="nav__enlace"><button><a href="#">Pizzas</a></button></li>
+          <li class="nav__enlace"><button><a href="#">Entradas</a></button></li>
+          <li class="nav__enlace"><button><a href="#">Bebidas</a></button></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <h1>Laboratorio #6 CSS Positions and Floating</h1>
+      <ul>
+        <li>
+          Un menú de navegación colocado horizontalmente, cada enlace del menú
+          debe tener un color de fondo, bordes redondeados y relleno para que
+          sea visualmente agradable (20 pts)
+        </li>
+        <li>
+          Un encabezado con el título del laboratorio y su información
+          (Adecuarlo visualmente a su manera). (20 pts)
+        </li>
+        <li>
+          Una sección compuesta de 3 artículos, cada uno posee una imagen de
+          150x150px y una breve descripción que sobrepase el tamaño del
+          contenedor para cortarlo con un enlace simulando el efecto de “ver
+          más”. CADA ARTÍCULO DEBE ESTAR AL LADO DEL OTRO COMO UN CONJUNTO DE 3
+          COLUMNAS. (20 pts)
+        </li>
+        <li>
+          Una sección con una imagen alargada horizontalmente con un texto sobre
+          ella explicando la imagen. (Buscar efecto para opacar la imagen y
+          permitir que el texto se visualice). (20 pts)
+        </li>
+        <li>
+          Un pie de página con el logo de la UTP a la izquierda y el logo de la
+          FISC a la derecha con un tamaño de 150x150px (20 pts)
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section id="paquetes">
+        <h2>Paquetes</h2>
+        <div class="container">
+          <div>
+            <img src="./img/paquete-1.png" alt="Paquete 1">
+            <div class="description">
+              <h3>2 Pizzas Familiares + Palitroques + 1 Litro de Soda</h3>
+              <p>
+                2 Pizzas Familiares de 1 Ingrediente (jamón, queso,pollo,pepperoni)
+                + Palitroques Italianos + 1 Litro de Soda. Convierte especialidad
+                Americana o Suprema por $2.00 adicionales en cada pizza.
+              </p>
+              <button>Ver más</button>
+            </div>
+          </div>
+          <div>
+            <img src="./img/paquete-2.png" alt="Paquete 2">
+            <div class="description">
+              <h3>Pizza Mediana + Palitroques + 1 Litro de Soda</h3>
+              <p>
+                Pizza Mediana de un ingrediente (pepperoni, jamón, pollo o queso) +
+                Palitroques Italianos + 1 Litro de Soda. Convierte especialidad
+                Americana o Suprema por $2.00 adicionales.
+              </p>
+              <button>Ver más</button>
+            </div>
+          </div>
+          <div>
+            <img src="./img/paquete-3.png" alt="Paquete 3">
+            <div class="description">
+              <h3>Pizza Familiar + 1 Litro de Soda</h3>
+              <p>
+                Pizza familiar de 1 ingrediente (jamón, pepperoni, pollo, queso) + 1
+                Litro de soda. Convierte especialidad Americana o Suprema por $2.00
+                adicionales.
+              </p>
+              <button>Ver más</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta__container">
+        <div class="cta"></div>
+        <div class="cta__text"><h2>Pizza Familiar Pepperoni</h2></div>
+      </section>
+    </main>
+    <footer>
+      <img src="./img/logo-utp.png" alt="Logo UTP" />
+      <img src="./img/logo-fisc.png" alt="Logo FISC" />
+    </footer>
+  </body>
+</html>

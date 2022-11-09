@@ -1,0 +1,190 @@
+body{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'ars-maquette-web', sans-serif;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: white;
+}
+
+header img{
+  width: 25%;
+  float: left;
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  right: 0px;
+  margin-right: 15px;
+}
+
+.m-item{
+  padding: 15px;
+  width: auto;
+  text-decoration: none;
+  color:#252627;
+}
+
+.btn{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #bf1313;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.menu{
+  margin-bottom: 15px;
+  height: auto;
+}
+
+.subMenu{
+  clear: both;
+  margin-top: 25px;
+  background-color: gainsboro;
+  width: auto;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+}
+
+.sm-item{
+  width: auto;
+  text-decoration: none;
+  color:#252627;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-right: 1px solid whitesmoke;
+}
+
+footer{
+  background-color: gainsboro;
+  text-align: center;
+}
+
+footer p{
+  color: #252627;
+  font-size: 30px;
+}
+
+.cuerpo{
+  clear: both;
+}
+
+.carousel{
+  margin-top: 50px;
+  height: 250px;
+}
+
+.player{
+  position: relative;
+  float: left;
+  max-width: 22%;
+  text-align: center;
+  padding: 1%;
+  width: 100%;
+  box-sizing: border-box;
+  height: 250px;
+}
+
+.carousel div img{
+  max-width: 100%;
+  height: 100%;
+}
+
+.player img:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.bg-blur{
+  background-color: darkblue;
+  opacity: 0.3;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 85%;
+}
+
+.bg-blur p{
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+.video{
+  text-align: center;
+  background-color: #1d1e20;
+  clear: both;
+}
+
+.video iframe{
+  padding-bottom: 50px;
+}
+
+.video h2{
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.destacados{
+  background-color: gainsboro;
+  clear: both;
+  height: 600px;
+}
+
+.news{
+  background-color: gainsboro;
+  clear: both;
+}
+
+.new img{
+  max-width: 100%;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.new img:hover{
+  background-color: white;
+  z-index: 999;
+  opacity: 0.8;
+}
+
+.new{
+  position: relative;
+  float: left;
+  max-width: 22%;
+  text-align: center;
+  padding: 1%;
+}
+
+.logos{
+  width: 150px;
+  height: 150px;
+  padding: 25px;
+}
+
+.utp{
+  float: left;
+}
+
+.fisc{
+  float: right;
+}

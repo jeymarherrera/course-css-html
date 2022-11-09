@@ -1,0 +1,123 @@
+@charset "UTF-8";
+:root {
+  --color-primary: #58cc02;
+  --color-primary-light: #67ee02;
+  --color-primary-dark: #58a700;
+  --color-secondary: #235390;
+  --color-text: #3a3a3a;
+  --color-text-2: #646464;
+  --color-neutral: #f3f3f3;
+  --color-neutral-2: #cacaca;
+}
+
+/* Base */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.6rem;
+  /* Tipografía */
+}
+body .btn {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  outline: none;
+  padding: 0.8rem 2.4rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: fit-content;
+}
+body .btn--contained {
+  background-color: var(--color-primary);
+  border-bottom: 0.3rem solid var(--color-primary-dark);
+  border-radius: 0.5em;
+  color: white;
+  transition: all 250ms ease;
+  transition-property: background-color, border-bottom-color;
+}
+body .btn--outlined {
+  border: 0.2rem solid var(--color-neutral-2);
+  border-radius: 3rem;
+  color: var(--color-text-2);
+}
+body .btn--contained:hover {
+  background-color: var(--color-primary-light);
+  border-bottom-color: var(--color-primary);
+}
+body h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+body .hero {
+  align-items: center;
+  background: center/contain var(--color-secondary) url("./img//star-pattern.svg");
+  color: white;
+  display: flex;
+  padding: 1rem 8%;
+  height: 40rem;
+  width: 100%;
+}
+body .hero p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+body .hero h1 {
+  display: inline-block;
+  width: 75%;
+}
+body .hero > div:not(:nth-child(2)) {
+  flex: 1;
+}
+body .hero > .vertical-line {
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.45);
+  height: 40%;
+  margin: 0 2rem;
+}
+body .hero > div:last-child > a.btn--contained {
+  margin-top: 2.4rem;
+  width: fit-content;
+}
+body .seccion2 {
+  align-items: center;
+  /* background: center/contain var(--color-secondary);*/
+  color: #110303;
+  display: flex;
+  padding: 1rem 8%;
+  height: 40rem;
+  width: 100%;
+  display: flex;
+}
+body .seccion2 li {
+  margin: 2.4rem 0;
+}
+body .seccion2 p {
+  margin: 2.4rem 0;
+}
+body .seccion2 > div.vertical-line {
+  border-left: 0.1rem solid #110303;
+  height: 50%;
+  margin: 0 2rem;
+}
+body .seccion2 > div:not(:nth-child(2)) {
+  flex: 1;
+  margin: 5rem;
+}
+
+/*# sourceMappingURL=output.css.map */
